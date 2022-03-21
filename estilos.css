@@ -1,0 +1,148 @@
+/*General*/
+body{
+    background: linear-gradient(151deg, red 0%, white 100%), linear-gradient(140deg, #ff5454 27%, white 100%), linear-gradient(140deg, red 0%, white 72%), linear-gradient(64deg, white 0%, red 100%), radial-gradient(52% 101.79% at 50% 50%, red 0%, white 100%), radial-gradient(100% 100% at 70% 0%, red 0%, white 100%);
+    background-blend-mode: overlay, overlay, difference, difference, color-burn, exclusion;
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+/*Textos*/
+
+*{
+    font-family:'Trebuchet MS';
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+p{
+    text-align: center;
+}
+
+.centrarTexto{
+    text-align: center;
+}
+
+/*.input*/
+.input{
+    border: none;
+}
+
+/*Links*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Botones*/
+
+.buttonRed{
+    background-color: red;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 130px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttonWhite{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 130px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*Pokedex Design*/
+.backgroundPokedex {
+    background-image: url(./imagenes/pokedexdesign.png);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position: 75px 0;
+    background-attachment: scroll;
+}
+
+.caratula {
+    position: absolute;
+    top: 140px;
+    left: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datosTipo {
+    font-family: monospace;
+    position: absolute;
+    top: 230px;
+    left: 700px;
+}
+
+.stats{
+    color: yellow;
+    position: absolute;
+    top: 320px;
+    left: 690px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+}
+
+.submit {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 30px;
+    position: absolute;
+    top: 430px;
+    left: 250px;
+}
+
+.buttonBlue{
+    position: absolute;
+    top: 515px;
+    left: 140px;
+    background-color: rgba(29, 119, 192, 0.1);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 180px;
+    height: 57px;
+    text-decoration: none;
+    border: none;
+    border-radius: 20%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+/*Footer*/
+
+.terminosCondiciones{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.avisoPrivacidad{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
